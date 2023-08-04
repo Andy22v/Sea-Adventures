@@ -7,7 +7,7 @@
   font-family: Noto-Sans, sans-serif;
 }
 
-h1 {
+/* h1 {
   font-size: 36px;
   font-weight: bold;
 }
@@ -30,9 +30,12 @@ h4 {
 h5 {
   font-size: 14px;
   font-weight: lighter;
-}
+} */
 
 p {
-  font-size: 18px;
-  font-weight: normal;
+  color: #00181b;
+}
+
+li {
+  list-style-type: none;
 }
