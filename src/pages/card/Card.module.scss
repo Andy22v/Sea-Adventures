@@ -1,0 +1,77 @@
+.Card {
+  flex-grow: 1;
+  width: 100%;
+  background-color: #f4f2ec;
+  padding: 12px;
+  border-radius: 12px;
+
+  &__priceInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+  }
+
+  &__partenzaContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+
+  &__partenzaParag {
+    color: #5ac6ec;
+    padding: 5px;
+  }
+
+  &__infoOrari {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+
+  &__azulColor {
+    color: #5ac6ec;
+    padding: 5px;
+  }
+
+  &__infoCabine {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  &__reservation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  &__available {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  &__btnContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  &__button {
+    cursor: pointer;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #273049;
+  }
+}
